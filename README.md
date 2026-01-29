@@ -141,7 +141,8 @@ gnome-extensions enable auto-maximize@surface
 
 - This runs entirely in user space
 - No system‑wide daemons or udev rules required
-- Tested primarily on GNOME with Surface hardware, but should work on any libinput‑compatible tablet‑mode device but you may have to adjust the device path in the service file
+- Tested primarily on GNOME with Surface hardware, but should work on any libinput‑compatible tablet‑mode device
+- You may (will) have to adjust the device path in the service file if not on SurfaceBook 2
 
 ---
 
