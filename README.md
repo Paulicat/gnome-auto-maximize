@@ -147,6 +147,6 @@ gnome-extensions enable auto-maximize@surface
 
 ## License
 
-MIT (or specify your preferred license)
+MIT
 
 ```
