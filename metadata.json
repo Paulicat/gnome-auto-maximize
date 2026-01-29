@@ -2,6 +2,6 @@
   "uuid": "auto-maximize@surface",
   "name": "Auto Maximize",
   "description": "Maximize all windows when enabled. Restore when disabled.",
-  "shell-version": ["49"],
+  "shell-version": ["48,49"],
   "version": 2
 }
