@@ -1,0 +1,11 @@
+[Unit]
+Description=Tablet mode listener
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/local/bin/tablet-mode-listener.sh /dev/input/by-path/platform-MSHW0133:00-event
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=default.target
